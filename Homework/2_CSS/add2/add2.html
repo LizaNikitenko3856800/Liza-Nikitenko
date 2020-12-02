@@ -1,0 +1,91 @@
+<!DOCTYPE html> 
+ <HTML lang="en"> 
+     <HEAD>
+         <META charset="utf-8">
+            <META name="vievport" content="width=device-width, initial-scale=1">  
+            <TITLE>Page with blocks</TITLE>
+            <style>
+                body{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                    margin: 0;
+                }
+                
+                .main{
+                    display: flex;
+                    flex-direction: row;
+                    height: 100%;
+                    margin: 1;
+                    
+                }
+                .navigationblock{
+                    width: 15em;
+                    height: 60%;
+                    background-color: rgb(204,204,204);
+                    
+                }
+                .wrapper{
+                    background-color: rgb(238,238,238);
+                    flex-direction: column;
+                    display: flex;
+                    width: 100%;
+                }
+                .articleblock{
+                    background-color:rgb(170, 170, 170);
+                    margin-bottom: 4px;
+                    overflow: hidden;
+                    height: fit-content;
+                    width: auto;
+                }
+                .image{
+                    float: right;
+                    margin: .5em;
+                }
+                .footerblock{
+                    width: auto;
+                    height: fit-content;
+                    background-color: rgb(204,204,204);
+                    clear:both;
+                }
+                </style>
+     </HEAD>
+     <body>
+         <div class="main">
+           <div class="navigationblock">
+             <H3>Блок навигации</H3>
+             Содержание навигации<br>
+             Содержание навигации<br>
+             Содержание навигации<br>
+             Содержание навигации<br>
+             Содержание навигации<br>
+             Содержание навигации<br>
+             Содержание навигации<br>
+          </div>
+         <div class="wrapper">
+             <H3>Статья 1</H3>
+             Содержание статьи 1<br>
+             Содержание статьи 1<br>
+             Содержание статьи 1<br>
+             Содержание статьи 1<br>
+             Содержание статьи 1<br>
+         
+         <div class="articleblock">
+             <H3>Статья 2</H3>
+             Содержание статьи 2<br>
+             Содержание статьи 2<br>
+             Содержание статьи 2<br>
+             Содержание статьи 2<br>
+             Содержание статьи 2<br>
+             Содержание статьи 2<br>
+             <img src="icon_mail.png" style="float: right"></src>
+             
+            </div> 
+         </div>
+        
+       </div>
+         <div class="footerblock">
+          <p>Нижний блок</p>
+       </div>
+     </body>
+ </HTML>
