@@ -1,0 +1,97 @@
+<!DOCTYPE html> 
+ <HTML lang="en"> 
+     <HEAD>
+         <META charset="utf-8">
+            <META name="vievport" content="width=device-width, initial-scale=1">  
+            <TITLE>Document</TITLE>
+     </HEAD>
+     <style>
+         table{
+             width:fit-content;
+             height:fit-content;
+             border-collapse: collapse;
+             border: 2px solid white;
+             border-spacing: 2px 2px;
+         }
+         th,td{
+             border:1px dotted gray;
+         }
+         tr:nth-child(odd){
+             background: rgb(204,204,204);
+         }
+         tr:first-child>th{
+             background: rgb(119,119,119);
+             color:white;
+             text-align: center;
+
+         }
+         th:first-child{
+             text-align:left;
+         }
+         tr:hover{
+             background-color: rgb(238,182,215);
+             font-style:italic;
+             cursor: pointer;
+
+         }
+         caption{
+             position: relative;
+             top:150px;
+             text-transform: uppercase;
+         }
+         </style>
+         <body>
+             <table>
+                 <caption>данные о сотрудниках</caption>
+                 <tr>
+                     <th>ФИО</th>
+                     <th>пол</th>
+                     <th>должность</th>
+                     <th>дата рож.</th>
+                     <th>Данные 01</th>
+                     <th>Данные 02</th>
+                 </tr>
+                 <tr>
+                    <th>Иванов Иван Иванович</th>
+                    <th>М</th>
+                    <th>начальник</th>
+                    <th>01.01.1960</th>
+                    <th>4567</th>
+                    <th>3453</th>
+                </tr>
+                <tr>
+                    <th>Петрова Илонна Петровна</th>
+                    <th>Ж</th>
+                    <th>секретать</th>
+                    <th>01.01.1989</th>
+                    <th>98795</th>
+                    <th>46523</th>
+                </tr>
+                <tr>
+                    <th>Силоров Илья Игоревич</th>
+                    <th>М</th>
+                    <th>бухгалтер</th>
+                    <th>01.01.1979</th>
+                    <th>743434</th>
+                    <th>987979</th>
+                </tr>
+                <tr>
+                    <th>Пупин Фёдор Фёдорович</th>
+                    <th>М</th>
+                    <th>водитель</th>
+                    <th>01.01.1963</th>
+                    <th>74323434</th>
+                    <th>9232379</th>
+                </tr>
+
+                <tr>
+                    <th>Крупин Сергей Иванович</th>
+                    <th>М</th>
+                    <th>водитель 2</th>
+                    <th>01.01.1983</th>
+                    <th>3234534</th>
+                    <th>923123379</th>
+                </tr>
+             </table>
+         </body>
+         </HTML>
